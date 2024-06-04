@@ -113,8 +113,8 @@ const HeroSlider: React.FC = () => {
   return (
     <>
       <div
-        className="relative w-full bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "url(/path/to/your/background-image.jpg)" }}
+        className="relative w-full bg-cover bg-center bg-no-repeat bg-gray-900"
+        // style={{ backgroundImage: "url(/path/to/your/background-image.jpg)" }}
       >
         <Slider
           {...Herosettings}
@@ -127,10 +127,10 @@ const HeroSlider: React.FC = () => {
             >
               <div
                 className="relative py-8 md:py-28 lg:py-36 xl:py-72 h-full flex items-center bg-cover bg-center bg-no-repeat overlay-black-60"
-                style={{
-                  backgroundImage: `url(${item.bgImage})`,
-                  backgroundSize: "cover",
-                }}
+                // style={{
+                //   backgroundImage: `url(${item.bgImage})`,
+                //   backgroundSize: "cover",
+                // }}
               >
                 {/* animate fadeoutup  */}
                 <div className="w-full grid grid-cols-1 md:grid-cols-2 items-center justify-between gap-12 mx-auto">
